@@ -1,0 +1,16 @@
+@function get-color($color-name) {
+  @return map-get($map: $colors, $key: $color-name);
+}
+
+@function get-contrast-color($bg-color) {
+  @if (lightness($bg-color) < 50) {
+    @return white;
+  }
+
+  @return black;
+}
+
+@mixin bg-color-with-color($bg-color) {
+  background-color: get-color($bg-color);
+  color: get-contrast-color(get-color($bg-color));
+}

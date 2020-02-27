@@ -1,0 +1,71 @@
+// Mixins
+@import "../../node_modules/sass-mq/mq";
+@import "mixins";
+@import "settings";
+@import "header";
+@import "main";
+@import "footer";
+
+* {
+  box: {
+    sizing: border-box;
+  }
+}
+
+body {
+  @include bg-color-with-color(bg);
+  margin: 0;
+  line: {
+    height: 1.5;
+  }
+  font: {
+    family: $body-font-family;
+  }
+
+  @include mq(large) {
+    font: {
+      size: 120%;
+    }
+  }
+}
+
+%headline {
+  font: {
+    family: $headline-font-family;
+    weight: normal;
+  }
+  color: get-color(primary);
+  margin: {
+    top: 2rem;
+    bottom: 0;
+  }
+  line: {
+    height: 1.2em;
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    @extend %headline;
+  }
+}
+
+p {
+  margin: {
+    top: 0.5em;
+    bottom: 1em;
+  }
+}
+
+img {
+  display: block;
+  height: auto;
+  max: {
+    width: 100%;
+  }
+}
+
+a {
+  color: get-color(primary);
+  display: inline-block;
+}

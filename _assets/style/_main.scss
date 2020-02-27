@@ -1,0 +1,50 @@
+main {
+  $padding-left-right: 1.5em;
+  margin: {
+    bottom: $footer-height;
+  }
+  padding: {
+    left: $padding-left-right;
+    right: $padding-left-right;
+    bottom: 1em;
+  }
+  background: {
+    color: inherit;
+  }
+  box: {
+    shadow: 0 2px 0 black;
+  }
+
+  > div {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+    max: {
+      // magic number
+      width: 1234px;
+    }
+  }
+}
+
+ul {
+  list-style-type: disclosure-closed;
+  line: {
+    height: 1.2em;
+  }
+
+  @include mq(large) {
+    columns: 2;
+  }
+
+  li {
+    margin: {
+      bottom: 0.5em;
+    }
+
+    &::marker {
+      content: "➤\00A0";
+      color: get-color(primary);
+    }
+  }
+}

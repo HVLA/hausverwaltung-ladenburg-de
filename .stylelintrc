@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "block-closing-brace-newline-before": "always-multi-line",
+    "declaration-empty-line-before": "never",
+    "at-rule-no-unknown": null
+  }
+}

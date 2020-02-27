@@ -1,0 +1,43 @@
+footer {
+  @include bg-color-with-color(primary);
+  $padding-left-right: 1rem;
+  $padding-top-bottom: 0.7rem;
+  $space-for-line-height: $footer-height - ($padding-top-bottom * 2);
+  $number-of-lines: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: $footer-height;
+  padding: {
+    left: $padding-left-right;
+    top: $padding-top-bottom;
+    right: $padding-left-right;
+    bottom: $padding-top-bottom;
+  }
+  line-height: $space-for-line-height / $number-of-lines;
+  font-size: 0.8rem;
+  text-align: center;
+
+  @include mq(large) {
+    $padding-top-bottom: 1rem;
+    $number-of-lines: 1;
+    $space-for-line-height: $footer-height - ($padding-top-bottom * 2);
+    line-height: $space-for-line-height / $number-of-lines;
+    padding: {
+      top: $padding-top-bottom;
+      bottom: $padding-top-bottom;
+    }
+  }
+
+  a {
+    display: block;
+    font-weight: bold;
+    color: inherit;
+
+    @include mq(large) {
+      display: inline-block;
+    }
+  }
+}

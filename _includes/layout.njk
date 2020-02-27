@@ -1,0 +1,34 @@
+---
+title: Basic Template
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Muli|Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- TODO: Do not serve Google Fonts via CDN -->
+    <!-- TODO: Minify html -->
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="titelleiste">
+      <a href="/"><img class="logo" src="/images/hausverwaltung-logo.svg" alt="Hausverwaltung Ladenburg Logo"></a>
+    </div>
+    <header>
+      
+      <img src="/images/{{ headerimage }}" alt="Hausverwaltung Ladenburg" height="405" width="1300">
+    </header>
+    <main>
+      <div>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </div>
+    </main>
+    <footer>
+        <a href="/impressum">Impressum</a>
+        Wir benutzen keine Cookies und kein Tracking
+    </footer>
+  </body>
+</html>

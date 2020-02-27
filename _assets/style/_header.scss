@@ -1,0 +1,32 @@
+.logo {
+  width: 15rem;
+  padding: 1rem 1.5rem;
+}
+
+.titelleiste {
+  max: {
+    width: 1234px; // magic number
+  }
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+header {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  max-width: 1320px;
+
+  img {
+    $image-margin-left-right: 10px;
+    clip-path: polygon(49.62% 0.25%, 88.89% 20.62%, 99.8% 58.17%, 96.87% 84.45%, 69.61% 100.21%, 2.77% 94.97%, 0% 70%, 5.69% 14.28%);
+    margin: {
+      left: $image-margin-left-right;
+      right: $image-margin-left-right;
+    }
+    max-width: calc(100% - #{$image-margin-left-right * 2});
+  }
+}
