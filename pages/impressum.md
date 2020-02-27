@@ -1,36 +1,33 @@
 ---
-title: Impressum
-headerimage: WT2.jpg
+title: 'Impressum '
+headerimage: /images/WT2.jpg
+layout: layout.njk
 ---
-Verantwortlich für den Inhalt
 
-HauLa
-
-E-Mail: Info@HauLa.de
 
 ![](/images/HauLa3a.jpg)
 
 Telefon 06203 485022
 
-Immobilienverwalter (IHK)
-
+Immobilienverwalter (IHK)\
 Wohnungseigentumsverwalter (IHK)
 
 Mitglied im bfb Bundesverband der Fach- und Betriebswirte in der Immobilienwirtschaft e.V.
 
-Mitglied der VGB - Verwaltungs-Berufsgenossenschaft Körperschaft des öffentlichen Rechts
-
 Mitglied der Industrie- und Handelskammer Rhein-Neckar
 
-Die Hausverwaltung Ladenburg erbringt Immobilienvermögensverwaltung im Namen und für Rechnung Dritter. Sie betreibt KEINE erlaubnispflichtigen Bank- oder Finanzdientleistungen. Ebenso betreibt sie KEIN gewerbsmäßiges Bauträger- oder Baubetreuergeschäft. 
+Mitglied der Handwerkskammer Mannheim Rhein-Neckar-Odenwald
+
+Die Hausverwaltung Ladenburg erbringt Immobilienvermögensverwaltung im Namen und für Rechnung Dritter. Sie betreibt KEINE erlaubnispflichtigen Bank- oder Finanzdientleistungen. Ebenso betreibt sie KEIN gewerbsmäßiges Bauträger- oder Baubetreuergeschäft.
 
 # Zuständige Aufsichtsbehörde
 
 Industrie- und Handelskammer Rhein-Neckar
 
-L 1, 2, 68161 Mannheim Postfach 10 16 61, 68016 Mannheim
-Telefon 0621 1709-0
-Telefax 0621 1709-5511
+L 1, 2, 68161 Mannheim\
+Postfach 10 16 61, 68016 Mannheim\
+Telefon 0621 1709-0\
+Telefax 0621 1709-5511\
 E-Mail: ihk@rhein-neckar.ihk24.de
 De-Mail: ihk@rhein-neckar-ihk24.de-mail.de
 
@@ -50,9 +47,26 @@ Die Hausverwaltung Ladenburg, Inhaber R. Pires, ist Mitglied der Industrie- und 
 
 Wo Menschen arbeiten können trotz aller Bemühungen und Maßnahmen Fehler passieren. **Zum Schutz der Kunden besteht eine Vermögensschaden-Haftpflichtversicherung** bei der ERGO Versicherung AG (Victoriaplatz 1, 40477 Düsseldorf). **Der Versicherungsumfang für Vermögensschäden beträgt 500.000,00 Euro je Versicherungsfall**. Die  Jahreshöchstleistung beträgt 1.000.000,00 Euro. Diese Berufshaftpflichtversicherung nach § 34c Absatz 2 Nummer 3 GewO erfüllt die Voraussetzungen der § 15 und 15a der Makler- und Bauträgerverordnung (MaVB). Der räumliche Geltungsbereich des Versicherungsschutzes umfasst Tätigkeiten im gesamten geografischen Europa.
 
+# Weitere zuständige Kammer
+
+Dem Unternehmensinhaber ist der Betrieb verschiedener zulassungspflichtiger und zulassungsfreier Handwerke gestattet.\
+Zuständige Kammer:
+
+Handwerkskammer Mannheim Rhein-Neckar-Odenwald\
+B1, 1-2\
+68159 Mannheim\
+Telefon: 0621 18002-0\
+Fax: 0621 18002-199
+
+Der Unternehmensinhaber ist Mitglied der Handwerkskammer Mannheim Rhein-Neckar-Odenwald.
+
 # Weitere Betriebs- und Berufshaftpflichtversicherung
 
-Für den Immobilienservice inkl. Handwerker- und Hausmeisterleistungen besteht - auch als Handwerksbetrieb - eine Betriebshaftpflichtversicherung, die neben Instandhaltungs-, Wartungs-, Reparatur-, Reinigungs- und Hausmeisterdienste/-arbeiten auch Baumschnitt- und Baumfällarbeiten beinhaltet. Die Versicherungssumme **für Schäden aus dem Immobilienservice beträgt pauschal für Personen-, Sach- und Vermögensschäden 5.000.000 Euro je Schadenereignis**. Die Jahreshöchstleistung beträgt 15.000.000 Euro.
+Für den Immobilienservice inkl. Handwerker- und Hausmeisterleistungen besteht - auch als Handwerksbetrieb - eine Betriebshaftpflichtversicherung, die neben Instandhaltungs-, Wartungs-, Reparatur-, Reinigungs- und Hausmeisterdienste/-arbeiten auch Baumschnitt- und Baumfällarbeiten beinhaltet. Die Versicherungssumme **für Schäden aus dem Immobilienservice beträgt pauschal für Personen-, Sach- und Vermögensschäden 5.000.000 Euro je Schadenereignis**. Die Jahreshöchstleistung beträgt 15.000.000 Euro. Der räumliche Geltungsbereich des Versicherungsschutzes umfasst Tätigkeiten im Inland und im europäischen Ausland.
+
+# Berufsrechtliche Regelungen (Handwerk)
+
+Berufsrechtliche Regelungen des Handwerks sind einsehbar unter: www.hwk-mannheim.de
 
 # Urheberrecht
 

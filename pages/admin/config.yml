@@ -5,12 +5,16 @@ local_backend: true
 
 media_folder: "images"
 
+locale: 'de'
+
 collections:
   - name: "pages"
     label: "Seite"
     folder: "pages"
     slug: "{{slug}}"
+    create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Header Bild", name: "headerimage", widget: "image" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layout.njk" }
       - { label: "Body", name: "body", widget: "markdown" }
