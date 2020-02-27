@@ -1,5 +1,6 @@
 main {
   $padding-left-right: 1.5em;
+  display: block; // Fix for IE 11
   margin: {
     bottom: $footer-height;
   }
