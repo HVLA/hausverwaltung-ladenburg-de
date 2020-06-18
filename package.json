@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "netlify-cms-proxy-server": "^1.1.5",
-    "sass": "^1.25.0",
+    "sass": "^1.26.8",
     "sass-mq": "^5.0.1"
   }
 }
