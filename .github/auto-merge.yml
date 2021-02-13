@@ -4,8 +4,8 @@
     
 - match:
     dependency_name: stylelint
-    update_type: semver:minor
+    update_type: semver:major
   
 - match:
     dependency_name: stylelint-config-standard
-    update_type: semver:minor
+    update_type: semver:major
