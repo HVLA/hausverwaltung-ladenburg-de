@@ -1,0 +1,11 @@
+- match:
+    dependency_name: husky
+    update_type: semver:minor
+    
+- match:
+    dependency_name: stylelint
+    update_type: semver:minor
+  
+- match:
+    dependency_name: stylelint-config-standard
+    update_type: semver:minor
